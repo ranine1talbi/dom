@@ -1,0 +1,83 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style icons */
+i {
+  font-size: 35px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: black;
+}
+
+/* Main container style */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Shopping card container style */
+.shopping-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 50px 0;
+  width: 80%; /* Adjusted for better responsiveness */
+}
+
+/* Total price style */
+.total-price span {
+  font-size: 30px;
+}
+
+.total {
+  font-weight: bold;
+}
+
+/* List products container style */
+.list-products {
+  display: flex;
+  flex-wrap: wrap; /* Ensures products wrap onto new lines */
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%; /* Adjusted to occupy full width of container */
+}
+
+/* Card style */
+.card {
+  margin: 10px; /* Added margin to space out cards */
+  width: 18rem; /* Ensures cards have consistent width */
+}
+
+/* Card body style */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quantity style */
+.quantity {
+  font-size: 25px;
+}
+
+/* Additional styling for card body divs */
+.card-body div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+/* Trash icon color */
+.fa-trash-alt {
+  color: #de6b5c;
+}
